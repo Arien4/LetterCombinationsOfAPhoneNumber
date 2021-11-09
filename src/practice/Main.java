@@ -35,7 +35,6 @@ public class Main {
         Solution solution = new Solution();
         List <String> combinations = solution.letterCombinations(digits);
 
-        //System.out.println(digits.substring(1));
         for (String c : combinations) {
             System.out.println(c);
         }
