@@ -8,7 +8,6 @@ import java.util.Map;
 public class Solution {
     static Map<Integer, String> phone = new HashMap<>();
     static {
-        //Map<Integer, String> phone = new HashMap();
         phone.put(2, "abc");
         phone.put(3, "def");
         phone.put(4, "ghi");
@@ -40,11 +39,9 @@ public class Solution {
                     result.add(phone.get(digit).charAt(i) + comb.get(j));
                 }
             }
-            //   return result;
+
         }
         return result;
-
-
 
 
     }
